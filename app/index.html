@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Project</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="formContainer">
+        <form class="contactForm">
+          <input type="text" class="input nameInput" placeholder="Insert Full Name Here">
+          <span class="warningName hidden"> Please enter your name before submitting </span>
+          <input type="text" class="input photoInput" placeholder="Insert Photo URL Here">
+          <span class="warningPhoto hidden"> Please enter your photo URL before submitting </span>
+          <input type="text" class="input phoneInput" placeholder="Insert Phone Number Here">
+          <span class="warningPhone hidden"> Please enter your phone number before submitting </span>
+          <input type="text" class="input locationInput" placeholder="Insert City, State Here">
+          <span class="warningLocation hidden"> Please enter your location before submitting </span>
+          <button class="submitContact">Submit Contact</button>
+        </form>
+      </div>
+      <h1 class="headerForList">Contact List:</h1>
+    <ul class="contactList"></ul>
+    </div>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>

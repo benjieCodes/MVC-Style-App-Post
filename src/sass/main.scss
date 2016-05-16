@@ -1,0 +1,74 @@
+@import "bulma";
+
+.formContainer {
+  width: 500px;
+  background: lightgrey;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 30px;
+  padding-bottom: 60px;
+}
+
+.formContainer form {
+
+}
+.formContainer input {
+  margin-top: 10px;
+}
+
+.formContainer button {
+  float: right;
+  margin-top: 15px;
+  padding: 5px 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: RGBA(49, 98, 146, 1.00);
+  color: white;
+  font-weight: bold;
+}
+
+.headerForList {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+li {
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: lightgrey;
+  padding: 20px;
+  position: relative;
+}
+
+li p {
+  font-weight: bold;
+  padding-left: 10px;
+  text-align: left;
+
+}
+
+li img {
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.removeContact {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
